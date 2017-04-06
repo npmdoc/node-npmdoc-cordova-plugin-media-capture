@@ -1,0 +1,102 @@
+<svg height="1582" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1582" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  0.  2017-04-06 17:10:43 +0000  3013342 byte  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-06 17:10:43 +0000     1401 byte  CONTRIBUTING.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-06 17:10:43 +0000    11357 byte  LICENSE</tspan>
+<tspan x="10" y="74">  3.  2017-04-06 17:10:43 +0000      163 byte  NOTICE</tspan>
+<tspan x="10" y="90">  4.  2017-04-06 17:10:43 +0000    24813 byte  README.md</tspan>
+<tspan x="10" y="106">  5.  2017-04-06 17:10:43 +0000    11819 byte  RELEASENOTES.md</tspan>
+<tspan x="10" y="122">  6.  2017-04-06 17:10:43 +0000    20860 byte  doc/de/README.md</tspan>
+<tspan x="10" y="138">  7.  2017-04-06 17:10:43 +0000    20134 byte  doc/de/index.md</tspan>
+<tspan x="10" y="154">  8.  2017-04-06 17:10:43 +0000    21545 byte  doc/es/README.md</tspan>
+<tspan x="10" y="170">  9.  2017-04-06 17:10:43 +0000    20587 byte  doc/es/index.md</tspan>
+<tspan x="10" y="186"> 10.  2017-04-06 17:10:43 +0000    21933 byte  doc/fr/README.md</tspan>
+<tspan x="10" y="202"> 11.  2017-04-06 17:10:43 +0000    20928 byte  doc/fr/index.md</tspan>
+<tspan x="10" y="218"> 12.  2017-04-06 17:10:43 +0000    21009 byte  doc/it/README.md</tspan>
+<tspan x="10" y="234"> 13.  2017-04-06 17:10:43 +0000    20272 byte  doc/it/index.md</tspan>
+<tspan x="10" y="250"> 14.  2017-04-06 17:10:43 +0000    25013 byte  doc/ja/README.md</tspan>
+<tspan x="10" y="266"> 15.  2017-04-06 17:10:43 +0000    24150 byte  doc/ja/index.md</tspan>
+<tspan x="10" y="282"> 16.  2017-04-06 17:10:43 +0000    21583 byte  doc/ko/README.md</tspan>
+<tspan x="10" y="298"> 17.  2017-04-06 17:10:43 +0000    20736 byte  doc/ko/index.md</tspan>
+<tspan x="10" y="314"> 18.  2017-04-06 17:10:43 +0000    21010 byte  doc/pl/README.md</tspan>
+<tspan x="10" y="330"> 19.  2017-04-06 17:10:43 +0000    20252 byte  doc/pl/index.md</tspan>
+<tspan x="10" y="346"> 20.  2017-04-06 17:10:43 +0000    28448 byte  doc/ru/index.md</tspan>
+<tspan x="10" y="362"> 21.  2017-04-06 17:10:43 +0000    18469 byte  doc/zh/README.md</tspan>
+<tspan x="10" y="378"> 22.  2017-04-06 17:10:43 +0000    17784 byte  doc/zh/index.md</tspan>
+<tspan x="10" y="394"> 23.  2017-04-06 17:10:43 +0000     3589 byte  package.json</tspan>
+<tspan x="10" y="410"> 24.  2017-04-06 17:10:43 +0000    10631 byte  plugin.xml</tspan>
+<tspan x="10" y="426"> 25.  2017-04-06 17:10:43 +0000    22499 byte  src/android/Capture.java</tspan>
+<tspan x="10" y="442"> 26.  2017-04-06 17:10:43 +0000     2268 byte  src/android/FileHelper.java</tspan>
+<tspan x="10" y="458"> 27.  2017-04-06 17:10:43 +0000     9492 byte  src/android/PendingRequests.java</tspan>
+<tspan x="10" y="474"> 28.  2017-04-06 17:10:43 +0000     4393 byte  src/blackberry10/index.js</tspan>
+<tspan x="10" y="490"> 29.  2017-04-06 17:10:43 +0000     8846 byte  src/browser/CaptureProxy.js</tspan>
+<tspan x="10" y="506"> 30.  2017-04-06 17:10:43 +0000      955 byte  src/ios/CDVCapture.bundle/controls_bg.png</tspan>
+<tspan x="10" y="522"> 31.  2017-04-06 17:10:43 +0000      971 byte  src/ios/CDVCapture.bundle/controls_bg@2x.png</tspan>
+<tspan x="10" y="538"> 32.  2017-04-06 17:10:43 +0000     2858 byte  src/ios/CDVCapture.bundle/controls_bg@2x~ipad.png</tspan>
+<tspan x="10" y="554"> 33.  2017-04-06 17:10:43 +0000      969 byte  src/ios/CDVCapture.bundle/controls_bg~ipad.png</tspan>
+<tspan x="10" y="570"> 34.  2017-04-06 17:10:43 +0000     1216 byte  src/ios/CDVCapture.bundle/de.lproj/Localizable.st\</tspan>
+<tspan x="10" y="586">rings</tspan>
+<tspan x="10" y="602"> 35.  2017-04-06 17:10:43 +0000     1195 byte  src/ios/CDVCapture.bundle/en.lproj/Localizable.st\</tspan>
+<tspan x="10" y="618">rings</tspan>
+<tspan x="10" y="634"> 36.  2017-04-06 17:10:43 +0000     1208 byte  src/ios/CDVCapture.bundle/es.lproj/Localizable.st\</tspan>
+<tspan x="10" y="650">rings</tspan>
+<tspan x="10" y="666"> 37.  2017-04-06 17:10:43 +0000   531673 byte  src/ios/CDVCapture.bundle/microphone-568h@2x~ipho\</tspan>
+<tspan x="10" y="682">ne.png</tspan>
+<tspan x="10" y="698"> 38.  2017-04-06 17:10:43 +0000    72226 byte  src/ios/CDVCapture.bundle/microphone.png</tspan>
+<tspan x="10" y="714"> 39.  2017-04-06 17:10:43 +0000   282409 byte  src/ios/CDVCapture.bundle/microphone@2x.png</tspan>
+<tspan x="10" y="730"> 40.  2017-04-06 17:10:43 +0000   911582 byte  src/ios/CDVCapture.bundle/microphone@2x~ipad.png</tspan>
+<tspan x="10" y="746"> 41.  2017-04-06 17:10:43 +0000   393975 byte  src/ios/CDVCapture.bundle/microphone~ipad.png</tspan>
+<tspan x="10" y="762"> 42.  2017-04-06 17:10:43 +0000     5852 byte  src/ios/CDVCapture.bundle/record_button.png</tspan>
+<tspan x="10" y="778"> 43.  2017-04-06 17:10:43 +0000    13875 byte  src/ios/CDVCapture.bundle/record_button@2x.png</tspan>
+<tspan x="10" y="794"> 44.  2017-04-06 17:10:43 +0000    15822 byte  src/ios/CDVCapture.bundle/record_button@2x~ipad.p\</tspan>
+<tspan x="10" y="810">ng</tspan>
+<tspan x="10" y="826"> 45.  2017-04-06 17:10:43 +0000     7547 byte  src/ios/CDVCapture.bundle/record_button~ipad.png</tspan>
+<tspan x="10" y="842"> 46.  2017-04-06 17:10:43 +0000      973 byte  src/ios/CDVCapture.bundle/recording_bg.png</tspan>
+<tspan x="10" y="858"> 47.  2017-04-06 17:10:43 +0000      990 byte  src/ios/CDVCapture.bundle/recording_bg@2x.png</tspan>
+<tspan x="10" y="874"> 48.  2017-04-06 17:10:43 +0000     1026 byte  src/ios/CDVCapture.bundle/recording_bg@2x~ipad.pn\</tspan>
+<tspan x="10" y="890">g</tspan>
+<tspan x="10" y="906"> 49.  2017-04-06 17:10:43 +0000      996 byte  src/ios/CDVCapture.bundle/recording_bg~ipad.png</tspan>
+<tspan x="10" y="922"> 50.  2017-04-06 17:10:43 +0000     1196 byte  src/ios/CDVCapture.bundle/se.lproj/Localizable.st\</tspan>
+<tspan x="10" y="938">rings</tspan>
+<tspan x="10" y="954"> 51.  2017-04-06 17:10:43 +0000     5514 byte  src/ios/CDVCapture.bundle/stop_button.png</tspan>
+<tspan x="10" y="970"> 52.  2017-04-06 17:10:43 +0000    12965 byte  src/ios/CDVCapture.bundle/stop_button@2x.png</tspan>
+<tspan x="10" y="986"> 53.  2017-04-06 17:10:43 +0000    14474 byte  src/ios/CDVCapture.bundle/stop_button@2x~ipad.png</tspan>
+<tspan x="10" y="1002"> 54.  2017-04-06 17:10:43 +0000     7119 byte  src/ios/CDVCapture.bundle/stop_button~ipad.png</tspan>
+<tspan x="10" y="1018"> 55.  2017-04-06 17:10:43 +0000     4679 byte  src/ios/CDVCapture.h</tspan>
+<tspan x="10" y="1034"> 56.  2017-04-06 17:10:43 +0000    39598 byte  src/ios/CDVCapture.m</tspan>
+<tspan x="10" y="1050"> 57.  2017-04-06 17:10:43 +0000     6852 byte  src/ubuntu/MediaCaptureWidget.qml</tspan>
+<tspan x="10" y="1066"> 58.  2017-04-06 17:10:43 +0000    12428 byte  src/ubuntu/back.png</tspan>
+<tspan x="10" y="1082"> 59.  2017-04-06 17:10:43 +0000     5462 byte  src/ubuntu/capture.cpp</tspan>
+<tspan x="10" y="1098"> 60.  2017-04-06 17:10:43 +0000     2268 byte  src/ubuntu/capture.h</tspan>
+<tspan x="10" y="1114"> 61.  2017-04-06 17:10:43 +0000    10415 byte  src/ubuntu/microphone.png</tspan>
+<tspan x="10" y="1130"> 62.  2017-04-06 17:10:43 +0000    10087 byte  src/ubuntu/record_off.png</tspan>
+<tspan x="10" y="1146"> 63.  2017-04-06 17:10:43 +0000     4902 byte  src/ubuntu/record_on.png</tspan>
+<tspan x="10" y="1162"> 64.  2017-04-06 17:10:43 +0000    14430 byte  src/ubuntu/shoot.png</tspan>
+<tspan x="10" y="1178"> 65.  2017-04-06 17:10:43 +0000     1212 byte  src/ubuntu/toolbar-left.png</tspan>
+<tspan x="10" y="1194"> 66.  2017-04-06 17:10:43 +0000     4416 byte  src/ubuntu/toolbar-middle.png</tspan>
+<tspan x="10" y="1210"> 67.  2017-04-06 17:10:43 +0000     1161 byte  src/ubuntu/toolbar-right.png</tspan>
+<tspan x="10" y="1226"> 68.  2017-04-06 17:10:43 +0000    25496 byte  src/windows/CaptureProxy.js</tspan>
+<tspan x="10" y="1242"> 69.  2017-04-06 17:10:43 +0000     3123 byte  src/windows/MediaFile.js</tspan>
+<tspan x="10" y="1258"> 70.  2017-04-06 17:10:43 +0000    26307 byte  src/wp/Capture.cs</tspan>
+<tspan x="10" y="1274"> 71.  2017-04-06 17:10:43 +0000     3845 byte  src/wp/UI/AudioCaptureTask.cs</tspan>
+<tspan x="10" y="1290"> 72.  2017-04-06 17:10:43 +0000     3593 byte  src/wp/UI/AudioRecorder.xaml</tspan>
+<tspan x="10" y="1306"> 73.  2017-04-06 17:10:43 +0000    10540 byte  src/wp/UI/AudioRecorder.xaml.cs</tspan>
+<tspan x="10" y="1322"> 74.  2017-04-06 17:10:43 +0000     3766 byte  src/wp/UI/VideoCaptureTask.cs</tspan>
+<tspan x="10" y="1338"> 75.  2017-04-06 17:10:43 +0000     2520 byte  src/wp/UI/VideoRecorder.xaml</tspan>
+<tspan x="10" y="1354"> 76.  2017-04-06 17:10:43 +0000    13222 byte  src/wp/UI/VideoRecorder.xaml.cs</tspan>
+<tspan x="10" y="1370"> 77.  2017-04-06 17:10:43 +0000     1274 byte  tests/plugin.xml</tspan>
+<tspan x="10" y="1386"> 78.  2017-04-06 17:10:43 +0000    13235 byte  tests/tests.js</tspan>
+<tspan x="10" y="1402"> 79.  2017-04-06 17:10:43 +0000     7162 byte  types/index.d.ts</tspan>
+<tspan x="10" y="1418"> 80.  2017-04-06 17:10:43 +0000     1161 byte  www/CaptureAudioOptions.js</tspan>
+<tspan x="10" y="1434"> 81.  2017-04-06 17:10:43 +0000     1680 byte  www/CaptureError.js</tspan>
+<tspan x="10" y="1450"> 82.  2017-04-06 17:10:43 +0000     1072 byte  www/CaptureImageOptions.js</tspan>
+<tspan x="10" y="1466"> 83.  2017-04-06 17:10:43 +0000     1290 byte  www/CaptureVideoOptions.js</tspan>
+<tspan x="10" y="1482"> 84.  2017-04-06 17:10:43 +0000     1381 byte  www/ConfigurationData.js</tspan>
+<tspan x="10" y="1498"> 85.  2017-04-06 17:10:43 +0000     1959 byte  www/MediaFile.js</tspan>
+<tspan x="10" y="1514"> 86.  2017-04-06 17:10:43 +0000     1289 byte  www/MediaFileData.js</tspan>
+<tspan x="10" y="1530"> 87.  2017-04-06 17:10:43 +0000     1815 byte  www/android/init.js</tspan>
+<tspan x="10" y="1546"> 88.  2017-04-06 17:10:43 +0000     2559 byte  www/capture.js</tspan>
+<tspan x="10" y="1562"> 89.  2017-04-06 17:10:43 +0000     1573 byte  www/helpers.js</tspan>
+</text>
+</svg>
