@@ -54,12 +54,231 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.cordova-plugin-media-capture">module cordova-plugin-media-capture</a><ol>
 
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cordova-plugin-media-capture.</span>index</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cordova-plugin-media-capture.index">module cordova-plugin-media-capture.index</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-media-capture.index.captureAudio">
+            function <span class="apidocSignatureSpan">cordova-plugin-media-capture.index.</span>captureAudio
+            <span class="apidocSignatureSpan">(win, fail, args, env)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-media-capture.index.captureImage">
+            function <span class="apidocSignatureSpan">cordova-plugin-media-capture.index.</span>captureImage
+            <span class="apidocSignatureSpan">(win, fail, args, env)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-media-capture.index.captureVideo">
+            function <span class="apidocSignatureSpan">cordova-plugin-media-capture.index.</span>captureVideo
+            <span class="apidocSignatureSpan">(win, fail, args, env)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-media-capture.index.getSupportedAudioModes">
+            function <span class="apidocSignatureSpan">cordova-plugin-media-capture.index.</span>getSupportedAudioModes
+            <span class="apidocSignatureSpan">(success, fail, args, env)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-media-capture.index.getSupportedImageModes">
+            function <span class="apidocSignatureSpan">cordova-plugin-media-capture.index.</span>getSupportedImageModes
+            <span class="apidocSignatureSpan">(win, fail, args, env)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-media-capture.index.getSupportedVideoModes">
+            function <span class="apidocSignatureSpan">cordova-plugin-media-capture.index.</span>getSupportedVideoModes
+            <span class="apidocSignatureSpan">(win, fail, args, env)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.cordova-plugin-media-capture" id="apidoc.module.cordova-plugin-media-capture">module cordova-plugin-media-capture</a></h1>
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cordova-plugin-media-capture.index" id="apidoc.module.cordova-plugin-media-capture.index">module cordova-plugin-media-capture.index</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cordova-plugin-media-capture.index.captureAudio" id="apidoc.element.cordova-plugin-media-capture.index.captureAudio">
+        function <span class="apidocSignatureSpan">cordova-plugin-media-capture.index.</span>captureAudio
+        <span class="apidocSignatureSpan">(win, fail, args, env)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">captureAudio = function (win, fail, args, env) {
+    var result = new PluginResult(args, env);
+    capture("audio", {}, result, env.webview);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+- __supportedVideoModes__: The recording video resolutions and formats supported by the device. (ConfigurationData[])
+
+## capture.captureAudio
+
+&gt; Start the audio recorder application and return information about captured audio clip files.
+
+    navigator.device.capture.<span class="apidocCodeKeywordSpan">captureAudio</span>(
+        CaptureCB captureSuccess, CaptureErrorCB captureError,  [CaptureAudioOptions options]
+    );
+
+### Description
+
+Starts an asynchronous operation to capture audio recordings using the
+device's default audio recording application.  The operation allows
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cordova-plugin-media-capture.index.captureImage" id="apidoc.element.cordova-plugin-media-capture.index.captureImage">
+        function <span class="apidocSignatureSpan">cordova-plugin-media-capture.index.</span>captureImage
+        <span class="apidocSignatureSpan">(win, fail, args, env)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">captureImage = function (win, fail, args, env) {
+    var result = new PluginResult(args, env),
+        options = args[0] === "undefined" ? {} : JSON.parse(decodeURIComponent(args[0]));
+
+    capture("photo", options,  result, env.webview);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+- Windows Phone 7 does not have a default audio recording application, so a simple user interface is provided.
+
+## capture.captureImage
+
+&gt; Start the camera application and return information about captured image files.
+
+    navigator.device.capture.<span class="apidocCodeKeywordSpan">captureImage</span>(
+        CaptureCB captureSuccess, CaptureErrorCB captureError, [CaptureImageOptions options]
+    );
+
+### Description
+
+Starts an asynchronous operation to capture images using the device's
+camera application.  The operation allows users to capture more than
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cordova-plugin-media-capture.index.captureVideo" id="apidoc.element.cordova-plugin-media-capture.index.captureVideo">
+        function <span class="apidocSignatureSpan">cordova-plugin-media-capture.index.</span>captureVideo
+        <span class="apidocSignatureSpan">(win, fail, args, env)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">captureVideo = function (win, fail, args, env) {
+    var result = new PluginResult(args, env),
+        options = args[0] === "undefined" ? {} : JSON.parse(decodeURIComponent(args[0]));
+
+    capture("video", options, result, env.webview);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    // start image capture
+    navigator.device.capture.captureImage(captureSuccess, captureError, {limit:2});
+
+## capture.captureVideo
+
+&gt; Start the video recorder application and return information about captured video clip files.
+
+    navigator.device.capture.<span class="apidocCodeKeywordSpan">captureVideo</span>(
+        CaptureCB captureSuccess, CaptureErrorCB captureError, [CaptureVideoOptions options]
+    );
+
+### Description
+
+Starts an asynchronous operation to capture video recordings using the
+device's video recording application.  The operation allows the user
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cordova-plugin-media-capture.index.getSupportedAudioModes" id="apidoc.element.cordova-plugin-media-capture.index.getSupportedAudioModes">
+        function <span class="apidocSignatureSpan">cordova-plugin-media-capture.index.</span>getSupportedAudioModes
+        <span class="apidocSignatureSpan">(success, fail, args, env)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getSupportedAudioModes = function (success, fail, args, env) {
+    var result = new PluginResult(args, env);
+    result.ok([]);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cordova-plugin-media-capture.index.getSupportedImageModes" id="apidoc.element.cordova-plugin-media-capture.index.getSupportedImageModes">
+        function <span class="apidocSignatureSpan">cordova-plugin-media-capture.index.</span>getSupportedImageModes
+        <span class="apidocSignatureSpan">(win, fail, args, env)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getSupportedImageModes = function (win, fail, args, env) {
+    var result = new PluginResult(args, env);
+    result.ok([]);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cordova-plugin-media-capture.index.getSupportedVideoModes" id="apidoc.element.cordova-plugin-media-capture.index.getSupportedVideoModes">
+        function <span class="apidocSignatureSpan">cordova-plugin-media-capture.index.</span>getSupportedVideoModes
+        <span class="apidocSignatureSpan">(win, fail, args, env)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getSupportedVideoModes = function (win, fail, args, env) {
+    var result = new PluginResult(args, env);
+    result.ok([]);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
