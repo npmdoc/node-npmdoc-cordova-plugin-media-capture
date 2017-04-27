@@ -1,6 +1,6 @@
 # npmdoc-cordova-plugin-media-capture
 
-#### api documentation for  [cordova-plugin-media-capture (v1.4.2)](https://github.com/apache/cordova-plugin-media-capture#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-media-capture.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-media-capture) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-media-capture.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-media-capture)
+#### basic api documentation for  [cordova-plugin-media-capture (v1.4.2)](https://github.com/apache/cordova-plugin-media-capture#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-media-capture.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-media-capture) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-media-capture.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-media-capture)
 
 #### Cordova Media Capture Plugin
 
@@ -106,7 +106,8 @@
         "test": "npm run jshint"
     },
     "types": "./types/index.d.ts",
-    "version": "1.4.2"
+    "version": "1.4.2",
+    "bin": {}
 }
 ```
 

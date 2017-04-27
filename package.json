@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "cordova-plugin-media-capture",
-    "description": "#### api documentation for  [cordova-plugin-media-capture (v1.4.2)](https://github.com/apache/cordova-plugin-media-capture#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-media-capture.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-media-capture) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-media-capture.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-media-capture)",
+    "description": "#### basic api documentation for  [cordova-plugin-media-capture (v1.4.2)](https://github.com/apache/cordova-plugin-media-capture#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-media-capture.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-media-capture) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-media-capture.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-media-capture)",
     "devDependencies": {
         "cordova-plugin-media-capture": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.2"
+    "version": "2017.4.27"
 }
